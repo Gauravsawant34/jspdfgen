@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Model Form</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.3/jspdf.umd.min.js"></script> -->
+  </head>
+  <body>
+    <h1 style="text-align: center">Introduction to html5</h1>
+    <form
+      action=""
+      name="resumeForm"
+      style="font-family: monospace; margin-left: 3rem"
+    >
+      <div class="parent_div">
+        <div class="child_div">
+          <p>
+            <label for="personalInfo">Enter a First Text or Paragraph: </label
+            ><br />
+            <textarea
+              name="personalInfo"
+              id="personalInfo"
+              cols="72"
+              rows="4"
+            ></textarea>
+          </p>
+
+          <p>
+            <label for="projectsDeets">Enter your Second Text details: </label
+            ><br />
+            <textarea
+              name="projectsDeets"
+              id="projectsDeets"
+              cols="72"
+              rows="4"
+            ></textarea>
+          </p>
+          <!-- ADD KELA -->
+          <p>
+            <label for="personalInfo2">Enter a tHIRD Text or Paragraph: </label
+            ><br />
+            <textarea
+              name="personalInfo2"
+              id="personalInfo2"
+              cols="72"
+              rows="4"
+            ></textarea>
+          </p>
+
+          <p>
+            <label for="projectsDeets3">Enter your Fourth Text details: </label
+            ><br />
+            <textarea
+              name="projectsDeets3"
+              id="projectsDeets3"
+              cols="72"
+              rows="4"
+            ></textarea>
+          </p>
+        </div>
+      </div>
+
+      <p class="dwbutton">
+        <input
+          type="button"
+          value="Create Pdf"
+          name="create"
+          id="create"
+          onclick="createResume()"
+        />
+      </p>
+    </form>
+
+    <script src="course.js"></script>
+  </body>
+</html>
